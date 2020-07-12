@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/homebg">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/homebtn"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_sharp_home_24px"/>
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/infobtn"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_baseline_info_24px"/>
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+
+        <ImageButton
+            android:id="@+id/cancelbtn"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_baseline_highlight_off_24px"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+
+            android:id="@+id/calculationTxt1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/whitebtnbg"
+            android:gravity="center"
+            android:text="Mic এ চেপে আপনার প্রশ্নটি করুন"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/microphone"
+            android:layout_width="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_mic_24px"
+            android:background="@drawable/circlebtn"
+            />
+
+        <TextView
+            android:id="@+id/Txt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="আপনার প্রশ্ন"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/whitebtnbg"
+            android:textSize="21dp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/inpuyTxt"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="31dp"
+            android:scrollbars="vertical"
+            android:background="@drawable/textfield2"
+            />
+
+
+        <TextView
+            android:id="@+id/rTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/whitebtnbg"
+            android:text="ফলাফল"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/resultTxt"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="31dp"
+            android:background="@drawable/textfield2"
+            />
+
+
+        <ImageButton
+            android:id="@+id/speackerBtn"
+            android:layout_marginTop="40dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circlebtn"
+            android:enabled="false"
+            android:src="@drawable/ic_baseline_volume_up_24px"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
